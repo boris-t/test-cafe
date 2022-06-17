@@ -1,0 +1,7 @@
+{
+  "screenshots": {
+    "path": "./configuration_file/screenshots/",
+    "takeOnFails": true,
+    "fullPage": false
+  }
+}

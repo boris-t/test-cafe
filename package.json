@@ -1,8 +1,10 @@
 {
   "devDependencies": {
-    "testcafe": "^1.19.0"
+    "testcafe": "^1.19.0",
+    "testcafe-reporter-html": "^1.4.6"
   },
   "scripts": {
-    "test": "testcafe chrome tests/"
+    "test": "testcafe chrome tests/",
+    "test-with-report": "testcafe chrome tests/theInternet*.js --skips-js-errors --reporter html:reports/html-reports/html-report.html"
   }
 }
